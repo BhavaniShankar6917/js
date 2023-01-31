@@ -14,6 +14,12 @@ function tableInputKeyPress(e){
   }
 }
 
+// or
+const form = document.querySelector('form');
+form.addEventListener('submit', function(e){
+          e.preventDefault();
+});
+
 //Another HTML Method
 /*
 <form onsubmit="return false">
